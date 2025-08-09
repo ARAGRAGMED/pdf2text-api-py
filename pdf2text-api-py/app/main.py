@@ -20,7 +20,7 @@ app.add_middleware(
 async def fetch_pdf_bytes(url: str) -> bytes:
     async with httpx.AsyncClient(headers={
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-    }, timeout=60) as client:
+    }, timeout=30) as client:
         r = await client.get(url)
         r.raise_for_status()
         return r.content
