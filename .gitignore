@@ -10,6 +10,7 @@ venv/
 ENV/
 # Project venv
 pdf2text-api-py/.venv/
+scraper-api-py/.venv/
 
 # Logs
 *.log
@@ -24,3 +25,6 @@ Thumbs.db
 # Env files
 .env
 .env.*
+
+# Ignore the scraper subproject as a separate repository
+scraper-api-py/
