@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.build/
+.dist/
+.venv/
+venv/
+ENV/
+# Project venv
+pdf2text-api-py/.venv/
+
+# Logs
+*.log
+
+# OS/Misc
+.DS_Store
+Thumbs.db
+
+# Vercel
+.vercel/
+
+# Env files
+.env
+.env.*
